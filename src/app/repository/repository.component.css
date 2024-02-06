@@ -1,0 +1,11 @@
+.repository {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  gap: 10px;
+  padding: 10px;
+}
+
+.repository li {
+  text-align: center;
+}

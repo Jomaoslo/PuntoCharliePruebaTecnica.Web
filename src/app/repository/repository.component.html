@@ -1,0 +1,11 @@
+@if (repositoryResults$ | async; as resultObject) {
+  <ul class="repository">    
+      <li>
+        <app-repository-item [repositoryInfo]="resultObject" />
+      </li>    
+  </ul>
+}
+
+@if (errorMessage) {
+  <app-error-message [errorMessage]="errorMessage" />
+}
